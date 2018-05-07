@@ -1,9 +1,9 @@
 <template>
-    <el-menu :default-active="activeIndex" class="el-menu-demo" mode="horizontal" @select="handleSelect">
-        <el-menu-item index="home">Home</el-menu-item>
-        <el-menu-item index="retrieve">Retrieve</el-menu-item>
-        <el-menu-item index="review">Review</el-menu-item>
+    <el-menu :default-active="activeIndex" class="el-menu-demo" mode="horizontal" @select="handleSelect" background-color="#212121" text-color="#fff">
         <el-menu-item index="allocate">Allocate</el-menu-item>
+        <el-menu-item index="review">Review</el-menu-item>
+        <el-menu-item index="retrieve">Retrieve</el-menu-item>
+        <el-menu-item index="home">Home</el-menu-item>
     </el-menu>
 </template>
 
