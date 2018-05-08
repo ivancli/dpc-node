@@ -19,7 +19,10 @@
     "dotenv": "^5.0.1",
     "express": "~4.16.0",
     "http-errors": "~1.6.2",
+    "mongoose": "^5.0.17",
+    "mongoose-uuid": "0.0.2",
     "morgan": "~1.9.0",
+    "node-uuid": "^1.4.8",
     "twig": "~0.10.3"
   },
   "devDependencies": {
@@ -39,6 +42,7 @@
     "sass-loader": "^6.0.6",
     "vue": "^2.5.16",
     "vue-loader": "^13.0.5",
+    "vue-router": "^3.0.1",
     "vue-template-compiler": "^2.4.4",
     "vuex": "^3.0.1",
     "webpack": "^3.6.0",

@@ -1,3 +1,27 @@
 html, body {
   margin: 0;
+  background-color: #eee;
+}
+
+.el-aside {
+  max-height: calc(100vh - 60px);
+  height: 100vh;
+  border-right: 1px solid $light-grey;
+}
+
+.el-menu {
+  border-bottom: none;
+  -webkit-box-shadow: 0 2px 4px -1px rgba(0, 0, 0, .2), 0 4px 5px 0 rgba(0, 0, 0, .14), 0 1px 10px 0 rgba(0, 0, 0, .12);
+  -moz-box-shadow: 0 2px 4px -1px rgba(0, 0, 0, .2), 0 4px 5px 0 rgba(0, 0, 0, .14), 0 1px 10px 0 rgba(0, 0, 0, .12);
+  box-shadow: 0 2px 4px -1px rgba(0, 0, 0, .2), 0 4px 5px 0 rgba(0, 0, 0, .14), 0 1px 10px 0 rgba(0, 0, 0, .12);
+  .el-menu-item {
+    &:not(.is-disabled) {
+      &:hover, &:focus, &.is-active {
+        color: #fff;
+      }
+    }
+    a {
+      text-decoration: none;
+    }
+  }
 }

@@ -4,7 +4,7 @@
 
         <el-container>
             <el-header>
-                <h3>Home</h3>
+                <h3>Review</h3>
             </el-header>
 
             <el-main>
@@ -19,7 +19,7 @@
 
 <script>
     export default {
-        name: "home",
+        name: "review",
     }
 </script>
 

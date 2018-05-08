@@ -7,7 +7,11 @@ require('dotenv').config();
 
 module.exports = {
     entry: {
+        index: './src/js/index.js',
         home: './src/js/app/home.js',
+        retrieve: './src/js/app/retrieve.js',
+        review: './src/js/app/review.js',
+        allocate: './src/js/app/allocate.js',
     },
     output: {
         path: path.resolve(__dirname, './public'),
